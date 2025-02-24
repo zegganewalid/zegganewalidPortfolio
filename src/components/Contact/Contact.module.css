@@ -1,0 +1,146 @@
+@import "../../vars.css";
+
+.container {
+  color: var(--color-text);
+  margin-top: 120px;
+  background-color: #04152D; /* Fond blue nuit */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 58px 10%;
+  gap: 40px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.header {
+  text-align: center;
+}
+
+.header h2 {
+  font-size: 80px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  margin-bottom: 10px;
+}
+
+.header p {
+  font-size: 40px;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  gap: 40px;
+}
+
+.linksSection {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  gap: 26px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.link a {
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+.contactForm {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background: var(--color-dark);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formGroup label {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.formGroup input,
+.formGroup textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--color-primary);
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-size: 16px;
+}
+
+.formGroup textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+
+.submitButton {
+  background: var(--color-primary);
+  color: var(--color-text);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.submitButton:hover {
+  background: var(--color-secondary);
+  transform: scale(1.05);
+}
+
+@media screen and (max-width: 830px) {
+  .content {
+    flex-direction: column;
+    gap: 23px;
+  }
+
+  .links {
+    align-items: center;
+  }
+
+  .contactForm {
+    width: 100%;
+  }
+}

@@ -1,0 +1,54 @@
+.footer {
+    background-color: #1e2a47; /* Couleur différente pour le footer */
+    color: white; /* Couleur du texte */
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .footerContent {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 30px; /* Titre WALID plus grand */
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .copyRight {
+    font-size: 16px;
+    margin: 10px 0;
+    font-weight: 400;
+  }
+  
+  .icons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .iconImage {
+    width: 30px; /* Taille de l'icône */
+    height: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .iconImage:hover {
+    transform: scale(1.1); /* Effet de zoom au survol */
+  }
+  
+  @media (max-width: 600px) {
+    .icons {
+      margin-top: 10px;
+    }
+  
+    .iconImage {
+      width: 25px;
+      height: 25px;
+    }
+  }
+  

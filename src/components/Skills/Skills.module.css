@@ -1,24 +1,24 @@
-@import "../../vars.css"; /* Toujours au début du fichier */
+@import "../../vars.css"; 
 
-/* Empêcher le débordement horizontal */
+
 body, html {
-  overflow-x: hidden; /* Masquer le débordement horizontal */
-  width: 100%; /* Limiter la largeur à 100% de la fenêtre */
-  margin: 0; /* Supprimer les marges par défaut */
-  padding: 0; /* Supprimer les paddings par défaut */
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0; 
+  padding: 0; 
 }
 
 * {
-  box-sizing: border-box; /* Appliquer à tous les éléments */
+  box-sizing: border-box;
 }
 
-/* Styles généraux pour la section Compétences */
+
 .container {
   color: var(--color-text);
-  margin: 79px auto 0; /* Centrer le conteneur */
-  padding: 0 20px; /* Ajouter un padding interne */
-  max-width: 1200px; /* Limiter la largeur maximale */
-  width: 100%; /* S'adapter à la largeur de la fenêtre */
+  margin: 79px auto 0; 
+  padding: 0 20px; 
+  max-width: 1700px; 
+  width: 100%; 
 }
 
 .title {
@@ -27,17 +27,17 @@ body, html {
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
-  text-align: center; /* Centrer le titre principal */
+  text-align: center;
 }
 
 .content {
   display: flex;
-  flex-direction: column; /* Organiser les catégories verticalement */
-  gap: 40px; /* Espace entre les catégories */
+  flex-direction: column; 
+  gap: 40px; 
   margin-top: 14px;
 }
 
-/* Styles pour les catégories de compétences */
+
 .category {
   margin-bottom: 40px;
 }
@@ -77,35 +77,28 @@ body, html {
   width: 120px;
   height: 120px;
   overflow: hidden; /* Masquer le débordement */
+  transition: transform 0.3s ease; /* Transition pour l'animation au survol */
+}
+
+.skillImageContainer:hover {
+  transform: scale(1.1); /* Agrandir l'icône au survol */
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 
 .skillImageContainer img {
   width: 75px;
-  max-width: 100%; /* Limiter la largeur des images */
-  height: auto; /* Conserver le ratio d'aspect */
-}
-
-.skill p {
-  font-size: 20px; /* Réduire la taille du texte pour une meilleure lisibilité */
-  font-family: var(--font-roboto);
-  font-weight: 500;
-  text-align: center; /* Centrer le texte sous l'icône */
-}
-
-/* Styles responsives */
-@media screen and (max-width: 830px) {
-  .content {
-    flex-direction: column;
-    align-items: center;
-    gap: 34px;
-  }
-
-  .skills {
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Ajuster pour les petits écrans */
-    gap: 15px; /* Réduire l'espace entre les compétences */
-  }
-
-  .skill p {
-    font-size: 18px; /* Réduire encore la taille du texte pour les petits écrans */
-  }
+  max-width: 100%;
+  height: auto;
+  animation: pulse 2s ease-in-out infinite; /* Appliquer l'animation de pulsation */
 }

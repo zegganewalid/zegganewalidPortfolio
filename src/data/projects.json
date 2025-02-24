@@ -1,26 +1,97 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "React Login SingUp",
+    "imageSrc": "projects/login.jpg",
+    "description": "Ce projet en React implémente un système d'inscription et de connexion avec gestion des états, validation des données et affichage des erreurs pour une expérience utilisateur intuitive et sécurisée.",
+    "skills": ["React", "Express", "Node", "Vite", "JavaScript","MongoDB","TailwindCSS","google-auth-library"],
+    "demo": "https://zegganewalid.github.io/ReactLoginSingup/",
+    "source": "https://github.com/zegganewalid/ReactLoginSingup"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "SpaceX API",
+    "imageSrc": "projects/spacex.png",
+    "description": "Ce projet Vue.js utilise **Composition API** et **TypeScript** pour afficher en temps réel les lancements de SpaceX via l’**API SpaceX v5**. Il inclut un décompte pour le prochain lancement, un filtre des lancements, un modal détaillé et une liste interactive, le tout avec **Tailwind CSS** et **Axios** pour une interface réactive et intuitive.",
+    "skills": ["JavaScript", "Vue.js", "TypeScript", "Tailwind CSS", "HTML5", "CSS", "API de services web", "API web", "axios", "YouTube"],
+    "demo": "https://zegganewalid.github.io/VueJsSpaceX/",
+    "source": "https://github.com/zegganewalid/VueJsSpaceX"
   },
   {
-    "title": "Project C",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "Tic Tac Toe avec animations en React",
+    "imageSrc": "projects/tic.jpg",
+    "description": "Développement d’un jeu **Tic Tac Toe interactif** en **React** avec animations CSS, effets visuels (confettis, mouvements) et musique de fond. Le projet met en avant la gestion d’état, les événements et une interface dynamique pour une expérience ludique et immersive.",
+    "skills": [
+    "React.js",
+    "Hooks React",
+    "JavaScript",
+    "CSS",
+    "Responsive Design",
+    "Animation informatique",
+    "Musique de fond",
+    "Git",
+    "GitHub"
+  ],
+    "demo": "https://zegganewalid.github.io/TicTacToeReact/",
+    "source": "https://github.com/zegganewalid/TicTacToeReact"
+  },
+  {
+    "title": "Analyse de données de commandes avec Power BI",
+    "imageSrc": "projects/power.jpg",
+    "description": "Analyse de données commerciales avec Power BI, création d’un tableau de bord interactif à partir d’un fichier CSV pour explorer les ventes, tendances et répartition géographique. Nettoyage des données avec Power Query, visualisations dynamiques (graphiques, cartes, tableaux) et filtres interactifs pour une analyse approfondie et une meilleure prise de décision.",
+    "skills": [
+    "Microsoft Power BI",
+    "Microsoft Power Query",
+    "Bases de données",
+    "Analyse des données"
+  ],
+    "demo": "https://github.com/zegganewalid/PowerBiProjetSales",
+    "source": "https://github.com/zegganewalid/PowerBiProjetSales"
+  },
+  {
+    "title": "Calculateur de Mensualité de Banque",
+    "imageSrc": "projects/cm.png",
+    "description": "Développement d’un **calculateur de mensualité de prêt bancaire** permettant aux utilisateurs de simuler leurs paiements en fonction du **montant emprunté, du taux d’intérêt et de la durée**. Il inclut le choix du type de prêt, un **tableau d’amortissement détaillé** et le calcul du **coût total du crédit**, aidant ainsi à une meilleure gestion financière.",
+    "skills": ["JavaScript", "HTML5", "CSS", "HTML", "CSS", "JavaScript", "Bootstrap"],
+    "demo": "https://zegganewalid.github.io/Calculateur-de-mensualit-/",
+    "source": "https://github.com/zegganewalid/Calculateur-de-mensualit-"
+  },
+  {
+    "title": "Calculatrice MVC WEB",
+    "imageSrc": "projects/cal.png",
+    "description": "Ce projet implémente une calculatrice simple en utilisant l'architecture MVC (Modèle-Vue-Contrôleur), qui sépare clairement les responsabilités. Le **Modèle** gère la logique des calculs (addition, soustraction, multiplication, division), tandis que la **Vue** est responsable de l'affichage des résultats et de la saisie des entrées par l'utilisateur. Le **Contrôleur**, quant à lui, sert d'intermédiaire, récupérant les actions de l'utilisateur, mettant à jour le modèle et notifiant la vue des résultats. Cette séparation des préoccupations permet une meilleure organisation du code, facilite sa maintenance, et rend l'application plus évolutive. Le projet offre des fonctionnalités comme les calculs à plusieurs étapes et un affichage en temps réel des résultats.",
+    "skills": ["Architecture MVC", "JavaScript", "HTML5", "CSS"],
+    "demo": "https://zegganewalid.github.io/Calculatrice_MVC_WEB-/",
+    "source": "https://github.com/zegganewalid/Calculatrice_MVC_WEB-"
+  },
+  {
+    "title": "Arbre Généalogique",
+    "imageSrc": "projects/arbre.jpg",
+    "description": "Le projet Java en POO consiste à manipuler un arbre généalogique, où chaque objet personne contient des informations telles que le prénom, le sexe, la date de naissance et de mort (null si vivant), ainsi que des références vers son père, sa mère et ses enfants. Le programme doit permettre de saisir un arbre généalogique et offrir un menu avec les fonctionnalités suivantes : afficher l'arbre, afficher les ancêtres d'une personne, afficher les demi-frères et demi-sœurs d'une personne, afficher les cousins d'une personne, et donner le lien de parenté entre deux personnes données.",
+    "skills": ["Architecture MVC", "JavaScript", "HTML5", "CSS"],
+    "demo": "https://zegganewalid.github.io/Calculatrice_MVC_WEB-/",
+    "source": "https://github.com/zegganewalid/Calculatrice_MVC_WEB-"
+  },
+  {
+    "title": "Quiz WEB",
+    "imageSrc": "projects/quiz.jpg",
+    "description": "Projet de Quiz Web Dynamique pour Université.",
+    "skills": ["HTML5", "CSS", "JavaScript"],
+    "demo": "https://zegganewalid.github.io/Quiz-Base/",
+    "source": "https://github.com/zegganewalid/Quiz-Base"
+  },
+  {
+    "title": "Projet film interface",
+    "imageSrc": "projects/film.jpg",
+    "description": "Un projet de l'université il s'agit de création dune interface web film.",
+    "skills": ["HTML5", "CSS", "JavaScript", "API web", "JavaScript", "HTML", "CSS", "Développement web", "API de services web"],
+    "demo": "https://zegganewalid.github.io/projet-film-interface/",
+    "source": "https://github.com/zegganewalid/projet-film-interface"
+  },
+  {
+    "title": "Chiffrement Message",
+    "imageSrc": "projects/ch.jpg",
+    "description": "Ce projet en C permet de chiffrer un message en ajoutant un chiffre à chaque caractère du texte. Ce chiffre joue le rôle de clé et permet de décaler les lettres, rendant le message illisible sans la clé. C’est l’un de mes premiers projets en cryptographie simple.",
+    "skills": ["C","Algorithmes"],
+    "demo": "https://zegganewalid.github.io/cryptageMSG/",
+    "source": "https://github.com/zegganewalid/cryptageMSG"
   }
 ]

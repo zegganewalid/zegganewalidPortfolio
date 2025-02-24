@@ -17,7 +17,7 @@
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
-  margin-bottom: 40px; /* Ajout d'espace sous le titre */
+  margin-bottom: 40px;
 }
 
 .content {
@@ -25,10 +25,9 @@
   flex-direction: row;
   align-items: center;
   gap: 20px;
-  padding-top: 15px; /* Espace supplémentaire pour l'animation */
+  padding-top: 15px;
 }
 
-/* Animation de flottement pour l'image */
 @keyframes float {
   0% {
     transform: translateY(0);
@@ -44,7 +43,7 @@
 .aboutImage {
   width: 35%;
   animation: float 3s ease-in-out infinite;
-  padding-top: 10px; /* Espace supplémentaire au-dessus de l'image */
+  padding-top: 10px; 
 }
 
 .aboutItems {
@@ -84,7 +83,6 @@
   font-size: 25px;
 }
 
-/* Animation pour les icônes */
 @keyframes pulse {
   0% {
     transform: scale(1);
@@ -97,19 +95,17 @@
   }
 }
 
-/* Appliquer l'animation à tous les icônes */
 .aboutItem img,
 .cvButton img {
   animation: pulse 2s ease-in-out infinite;
 }
 
-/* Agrandir l'icône dans le bouton */
+
 .cvButton img {
-  width: 32px; /* Taille agrandie */
-  height: 32px; /* Taille agrandie */
+  width: 32px;
+  height: 32px; 
 }
 
-/* Style du bouton */
 .cvButton {
   display: flex;
   align-items: center;
