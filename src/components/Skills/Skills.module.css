@@ -1,24 +1,22 @@
-@import "../../vars.css"; 
-
+@import "../../vars.css";
 
 body, html {
   overflow-x: hidden;
   width: 100%;
-  margin: 0; 
-  padding: 0; 
+  margin: 0;
+  padding: 0;
 }
 
 * {
   box-sizing: border-box;
 }
 
-
 .container {
   color: var(--color-text);
-  margin: 79px auto 0; 
-  padding: 0 20px; 
-  max-width: 1700px; 
-  width: 100%; 
+  margin: 79px auto 0;
+  padding: 0 10vw;
+  max-width: 1700px;
+  width: 100%;
 }
 
 .title {
@@ -32,11 +30,10 @@ body, html {
 
 .content {
   display: flex;
-  flex-direction: column; 
-  gap: 40px; 
+  flex-direction: column;
+  gap: 40px;
   margin-top: 14px;
 }
-
 
 .category {
   margin-bottom: 40px;
@@ -49,16 +46,15 @@ body, html {
   margin-bottom: 20px;
   border-bottom: 2px solid var(--color-secondary);
   padding-bottom: 10px;
-  text-align: left; /* Aligner le titre de la catégorie à gauche */
+  text-align: left;
 }
 
-/* Styles pour la liste des compétences */
 .skills {
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Grille responsive */
-  gap: 20px; /* Espace entre les compétences */
-  justify-content: center; /* Centrer les éléments dans la grille */
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  justify-content: center;
 }
 
 .skill {
@@ -76,12 +72,12 @@ body, html {
   justify-content: center;
   width: 120px;
   height: 120px;
-  overflow: hidden; /* Masquer le débordement */
-  transition: transform 0.3s ease; /* Transition pour l'animation au survol */
+  overflow: hidden;
+  transition: transform 0.3s ease;
 }
 
 .skillImageContainer:hover {
-  transform: scale(1.1); /* Agrandir l'icône au survol */
+  transform: scale(1.1);
 }
 
 @keyframes pulse {
@@ -100,5 +96,52 @@ body, html {
   width: 75px;
   max-width: 100%;
   height: auto;
-  animation: pulse 2s ease-in-out infinite; /* Appliquer l'animation de pulsation */
+  animation: pulse 2s ease-in-out infinite;
+}
+
+/* Media Queries pour les écrans plus petits */
+@media (max-width: 768px) {
+  .title {
+    font-size: 28px;
+  }
+
+  .categoryTitle {
+    font-size: 24px;
+  }
+
+  .skills {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  }
+
+  .skillImageContainer {
+    width: 100px;
+    height: 100px;
+  }
+
+  .skillImageContainer img {
+    width: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .categoryTitle {
+    font-size: 20px;
+  }
+
+  .skills {
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
+  }
+
+  .skillImageContainer {
+    width: 80px;
+    height: 80px;
+  }
+
+  .skillImageContainer img {
+    width: 50px;
+  }
 }
