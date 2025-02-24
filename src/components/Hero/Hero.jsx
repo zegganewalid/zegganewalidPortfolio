@@ -1,9 +1,15 @@
 import React from "react";
-
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
 
 export const Hero = () => {
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section className={styles.container}>
       <div className={styles.content}>
@@ -25,9 +31,10 @@ export const Hero = () => {
             en gestion de projet et en analyse de données.
           </p>
         </div>
-        <a href="zegganewalid11@gmail.com" className={styles.contactBtn}>
+        {/* Bouton pour faire défiler vers la section "contact" */}
+        <button onClick={scrollToContact} className={styles.contactBtn}>
           Prendre Contact
-        </a>
+        </button>
       </div>
       <img
         src={getImageUrl("hero/heroImage.png")}
