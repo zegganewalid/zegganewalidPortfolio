@@ -1,0 +1,111 @@
+@import "../../vars.css"; /* Toujours au début du fichier */
+
+/* Empêcher le débordement horizontal */
+body, html {
+  overflow-x: hidden; /* Masquer le débordement horizontal */
+  width: 100%; /* Limiter la largeur à 100% de la fenêtre */
+  margin: 0; /* Supprimer les marges par défaut */
+  padding: 0; /* Supprimer les paddings par défaut */
+}
+
+* {
+  box-sizing: border-box; /* Appliquer à tous les éléments */
+}
+
+/* Styles généraux pour la section Compétences */
+.container {
+  color: var(--color-text);
+  margin: 79px auto 0; /* Centrer le conteneur */
+  padding: 0 20px; /* Ajouter un padding interne */
+  max-width: 1200px; /* Limiter la largeur maximale */
+  width: 100%; /* S'adapter à la largeur de la fenêtre */
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: center; /* Centrer le titre principal */
+}
+
+.content {
+  display: flex;
+  flex-direction: column; /* Organiser les catégories verticalement */
+  gap: 40px; /* Espace entre les catégories */
+  margin-top: 14px;
+}
+
+/* Styles pour les catégories de compétences */
+.category {
+  margin-bottom: 40px;
+}
+
+.categoryTitle {
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 20px;
+  border-bottom: 2px solid var(--color-secondary);
+  padding-bottom: 10px;
+  text-align: left; /* Aligner le titre de la catégorie à gauche */
+}
+
+/* Styles pour la liste des compétences */
+.skills {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); /* Grille responsive */
+  gap: 20px; /* Espace entre les compétences */
+  justify-content: center; /* Centrer les éléments dans la grille */
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+}
+
+.skillImageContainer {
+  background-color: var(--color-secondary);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  overflow: hidden; /* Masquer le débordement */
+}
+
+.skillImageContainer img {
+  width: 75px;
+  max-width: 100%; /* Limiter la largeur des images */
+  height: auto; /* Conserver le ratio d'aspect */
+}
+
+.skill p {
+  font-size: 20px; /* Réduire la taille du texte pour une meilleure lisibilité */
+  font-family: var(--font-roboto);
+  font-weight: 500;
+  text-align: center; /* Centrer le texte sous l'icône */
+}
+
+/* Styles responsives */
+@media screen and (max-width: 830px) {
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 34px;
+  }
+
+  .skills {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Ajuster pour les petits écrans */
+    gap: 15px; /* Réduire l'espace entre les compétences */
+  }
+
+  .skill p {
+    font-size: 18px; /* Réduire encore la taille du texte pour les petits écrans */
+  }
+}

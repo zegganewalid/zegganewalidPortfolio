@@ -1,0 +1,192 @@
+[
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png",
+    "category": "Développement Web"
+  },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png",
+    "category": "Développement Web"
+  },
+  {
+    "title": "React",
+    "imageSrc": "skills/react.png",
+    "category": "Développement Web"
+  },
+  {
+    "title": "PHP",
+    "imageSrc": "skills/php.png",
+    "category": "Développement Web"
+  },
+  {
+    "title": "JavaScript",
+    "imageSrc": "skills/javascript.png",
+    "category": "Développement Web"
+  },
+  {
+    "title": "Vue.js",
+    "imageSrc": "skills/vue.png",
+    "category": "Développement Web"
+  },
+  {
+    "title": "WordPress",
+    "imageSrc": "skills/wordpress.png",
+    "category": "Développement Web"
+  },
+  {
+    "title": "Node.js",
+    "imageSrc": "skills/nodejs.png",
+    "category": "Développement Web"
+  },
+  {
+    "title": "Express.js",
+    "imageSrc": "skills/express.png",
+    "category": "Développement Web"
+  },
+  {
+    "title": "Nuxt.js",
+    "imageSrc": "skills/nuxtjs.png",
+    "category": "Développement Web"
+  },
+  {
+    "title": "Next.js",
+    "imageSrc": "skills/nextjs.png",
+    "category": "Développement Web"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "skills/typescript.png",
+    "category": "Développement Web"
+  },
+  {
+    "title": "Flutter",
+    "imageSrc": "skills/flutter.png",
+    "category": "Développement Mobile"
+  },
+  {
+    "title": "MongoDB",
+    "imageSrc": "skills/mongodb.png",
+    "category": "Bases de données et Modélisation"
+  },
+  {
+    "title": "SQL",
+    "imageSrc": "skills/sql.png",
+    "category": "Bases de données et Modélisation"
+  },
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "skills/postgresql.png",
+    "category": "Bases de données et Modélisation"
+  },
+  {
+    "title": "UML",
+    "imageSrc": "skills/uml.png",
+    "category": "Bases de données et Modélisation"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/mysql.png",
+    "category": "Bases de données et Modélisation"
+  },
+  {
+    "title": "C",
+    "imageSrc": "skills/c.png",
+    "category": "Langages de programmation"
+  },
+  {
+    "title": "Python",
+    "imageSrc": "skills/python.png",
+    "category": "Langages de programmation"
+  },
+  {
+    "title": "Java",
+    "imageSrc": "skills/java.png",
+    "category": "Langages de programmation"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "skills/figma.png",
+    "category": "Design"
+  },
+  {
+    "title": "Cisco CCNA",
+    "imageSrc": "skills/ccna.png",
+    "category": "Réseaux et Systèmes"
+  },
+  {
+    "title": "Unix",
+    "imageSrc": "skills/unix.png",
+    "category": "Réseaux et Systèmes"
+  },
+  {
+    "title": "Packet Tracer",
+    "imageSrc": "skills/packettracer.png",
+    "category": "Réseaux et Systèmes"
+  },
+  {
+    "title": "Wireshark",
+    "imageSrc": "skills/wireshark.png",
+    "category": "Réseaux et Systèmes"
+  },
+  {
+    "title": "VS Code",
+    "imageSrc": "skills/vscode.png",
+    "category": "Outils de développement"
+  },
+  {
+    "title": "Eclipse",
+    "imageSrc": "skills/eclipse.png",
+    "category": "Outils de développement"
+  },
+  {
+    "title": "Android Studio",
+    "imageSrc": "skills/androidstudio.png",
+    "category": "Développement Mobile"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.png",
+    "category": "Outils de développement"
+  },
+  {
+    "title": "Jira",
+    "imageSrc": "skills/jira.svg",
+    "category": "Outils de développement"
+  },
+  {
+    "title": "Office",
+    "imageSrc": "skills/office.png",
+    "category": "Outils bureautiques et autres"
+  },
+  {
+    "title": "LaTeX",
+    "imageSrc": "skills/latex.svg",
+    "category": "Outils bureautiques et autres"
+  },
+  {
+    "title": "CERM",
+    "imageSrc": "skills/cerm.png",
+    "category": "Outils bureautiques et autres"
+  },
+  {
+    "title": "Power BI",
+    "imageSrc": "skills/powerbi.png",
+    "category": "Outils bureautiques et autres"
+  },
+  {
+    "title": "ETL",
+    "imageSrc": "skills/etl.png",
+    "category": "Outils bureautiques et autres"
+  },
+  {
+    "title": "Salesforce",
+    "imageSrc": "skills/salesforce.png",
+    "category": "Outils bureautiques et autres"
+  },
+  {
+    "title": "Adobe",
+    "imageSrc": "skills/adobe.png",
+    "category": "Design"
+  }
+]
