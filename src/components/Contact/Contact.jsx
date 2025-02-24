@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import styles from "./Contact.module.css";
-import { getImageUrl } from "../../utils"; // Assurez-vous que cette fonction existe
+import { getImageUrl } from "../../utils"; 
 
 export const Contact = () => {
   const [formData, setFormData] = useState({
@@ -60,11 +60,11 @@ export const Contact = () => {
             <li className={styles.link}>
               <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
               <a 
-                href="mailto:zegganewalid11@email.com" 
+                href="mailto:zegganewalid11@gmail.com" 
                 target="_blank"  // Ouvre dans un nouvel onglet
                 rel="noopener noreferrer" // Sécurise l'ouverture du lien
               >
-                zegganewalid11@email.com
+                zegganewalid11@gmail.com
               </a>
             </li>
             <li className={styles.link}>
