@@ -4,11 +4,13 @@ import { getImageUrl } from "../../utils";
 
 export const About = () => {
   const handleDownloadCV = () => {
-    // Chemin vers le fichier PDF dans le dossier public
-    const pdfUrl = "/cv/ZegganeWalidResume.pdf"; // Assurez-vous que le fichier est dans public/cv/
+    // Utiliser la variable d'environnement de Vite si disponible
+    const baseUrl = import.meta.env.BASE_URL || "/zegganewalidPortfolio";
+    const pdfUrl = `${baseUrl}/cv/CvMasterWalidZeggane.pdf`;
+    
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "ZegganeWalidResume.pdf"; // Nom du fichier à télécharger
+    link.download = "CvMasterWalidZeggane.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
